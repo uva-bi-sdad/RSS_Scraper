@@ -1,0 +1,11 @@
+requests
+pandas
+feedparser
+tqdm
+newspaper3k
+lxml_html_clean
+validators
+sumy
+selenium
+webdriver_manager
+openai
