@@ -7,7 +7,8 @@ Description
 - _news-get.py_ takes inputs of a csv or a directory of csvs with a url column and appends a new column with the specified text; output is either a json lines file or csv file (both formats are supported) with the text of the article added. 
 - _openai-get.py_ takes the directory of json lines files from the news-get step as input along with a query template file. It submits the queries to the appropriate OpenAI model (3.5 Turbo or 4o mini), and returns the output in tab-separated-value files.
 - _gemini-get.py_ takes the directory of json lines files from the news-get step as input along with a query template file. It submits the queries to the appropriate Gemini model (1.0 Pro or 1.5 Turbo), and returns the output in tab-separated-value files.
-- 
+- _create_files_llama.py_ takes the directory of json lines files from the news-get step as input and converts them to (plain) json-formatted files with 30 articles per file that it places in an output directory. The reformatted json-formatted files are set up as arrays of elements that include the article title and text.
+- _llama_with_gpu.py_ reads in a single (reformatted) file of 30 articles and submits them along with a template to llama, outputting the responses to the specified output file.
 
 Setup your conda enviroment
 ===
