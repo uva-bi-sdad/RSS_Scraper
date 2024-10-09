@@ -1,0 +1,156 @@
+Gemini v1.0
+--------------------------------------------------------
+Model: gemini_1.0
+
+Run time for news output (2296 rows): 10:03
+
+Cost for run: $0
+
+Row count of successful rows: 1455
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.09174311926605505
+business_innovation | 0.12844036697247707
+green_product | 0.30275229357798167
+green_process | 0.28440366972477066
+company | 0.03669724770642202
+official_company_name | 0.03669724770642202
+product_or_process | 0.06422018348623854
+likely_naics_codes | 0.42201834862385323
+total average score | 0.17087155963302753
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 185
+I cannot extract the requested | 1
+TRUE | 1268
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 185
+I cannot extract the requested | 1
+TRUE | 1268
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 395
+I cannot extract the requested | 1
+NOT ENOUGH INFORMATION. The ar | 1
+NOT MENTIONED | 2
+TRUE | 1051
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 568
+I cannot extract the requested | 1
+NOT ENOUGH INFORMATION. The ar | 1
+NOT MENTIONED | 2
+Not enough information provide | 1
+TRUE | 874
+
+Measure: company
+response | row count
+---------|----------
+company identified | 1324
+company not identified | 131
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 10
+official company name identified | 1320
+official company name not identified | 125
+
+Measure: product_or_process
+response | row count
+---------|----------
+product or process identified | 1362
+product or process not identified | 93
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+562 | 164
+541 | 143
+325 | 110
+311 | 107
+322 | 90
+334 | 85
+336 | 82
+335 | 75
+221 | 63
+326 | 55
+333 | 47
+INVALID | 43
+561 | 37
+313 | 32
+332 | 31
+315 | 28
+312 | 18
+321 | 17
+339 | 15
+111 | 14
+331 | 13
+316 | 13
+327 | 12
+236 | 11
+454 | 8
+314 | 8
+445 | 8
+337 | 8
+448 | 8
+522 | 8
+523 | 7
+423 | 7
+446 | 5
+524 | 5
+519 | 5
+444 | 4
+452 | 4
+483 | 4
+211 | 3
+811 | 3
+212 | 3
+324 | 3
+114 | 3
+238 | 3
+422 | 3
+721 | 2
+924 | 2
+237 | 2
+323 | 2
+492 | 2
+493 | 2
+812 | 2
+713 | 2
+453 | 2
+711 | 2
+622 | 1
+611 | 1
+447 | 1
+712 | 1
+563 | 1
+921 | 1
+591 | 1
+531 | 1
+115 | 1
+213 | 1
+525 | 1
+401 | 1
+424 | 1
+441 | 1
+518 | 1
+517 | 1
+513 | 1
+485 | 1
+443 | 1
+488 | 1
+

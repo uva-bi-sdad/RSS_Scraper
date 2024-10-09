@@ -1,0 +1,107 @@
+OpenAI gpt-3.5-turbo
+--------------------------------------------------------
+Model: gpt-3.5-turbo
+
+Run time for news output (2296 rows): 3:08
+
+Cost for run: $3.78
+
+Row count of successful rows: 2280
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.23228346456692914
+business_innovation | 0.31496062992125984
+green_product | 0.3031496062992126
+green_process | 0.20866141732283464
+company | 0.1968503937007874
+official_company_name | 0.2795275590551181
+product_or_process | 0.2283464566929134
+likely_naics_codes | 0.35826771653543305
+total average score | 0.265255905511811
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 868
+TRUE | 1402
+not found | 1
+smartphones | 1
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 739
+Likely NAICS Codes: 334220 Cel | 1
+TRUE | 1530
+not found | 1
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 715
+TRUE | 1555
+not found | 1
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 562
+TRUE | 1707
+not found | 1
+
+Measure: company
+response | row count
+---------|----------
+(NOT SET) | 10
+company identified | 1569
+company not identified | 701
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 146
+official company name identified | 1552
+official company name not identified | 582
+
+Measure: product_or_process
+response | row count
+---------|----------
+(NOT SET) | 10
+product or process identified | 781
+product or process not identified | 1489
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+33 | 410
+32 | 398
+56 | 279
+54 | 233
+31 | 222
+22 | 131
+11 | 81
+ | 72
+44 | 69
+23 | 58
+42 | 53
+52 | 41
+51 | 40
+45 | 36
+92 | 34
+81 | 20
+48 | 18
+21 | 18
+61 | 16
+INVALID | 16
+71 | 10
+72 | 9
+49 | 5
+53 | 4
+62 | 4
+55 | 2
+93 | 1
+

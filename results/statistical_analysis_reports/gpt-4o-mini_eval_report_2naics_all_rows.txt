@@ -1,0 +1,100 @@
+OpenAI gpt-4o-mini
+--------------------------------------------------------
+Model: gpt-4o-mini
+
+Run time for news output (2296 rows): 2:45
+
+Cost for run: $1.46
+
+Row count of successful rows: 2296
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.0234375
+business_innovation | 0.06640625
+green_product | 0.109375
+green_process | 0.0859375
+company | 0.0546875
+official_company_name | 0.05859375
+product_or_process | 0.16015625
+likely_naics_codes | 0.33203125
+total average score | 0.111328125
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 301
+TRUE | 1995
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 224
+TRUE | 2072
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 1203
+TRUE | 1093
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 573
+TRUE | 1723
+
+Measure: company
+response | row count
+---------|----------
+company identified | 1724
+company not identified | 572
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 1
+official company name identified | 1710
+official company name not identified | 585
+
+Measure: product_or_process
+response | row count
+---------|----------
+product or process identified | 1545
+product or process not identified | 751
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+33 | 524
+32 | 453
+31 | 304
+54 | 296
+22 | 132
+56 | 121
+44 | 97
+11 | 82
+23 | 33
+52 | 32
+48 | 29
+81 | 28
+42 | 27
+51 | 23
+21 | 15
+92 | 15
+62 | 13
+71 | 13
+45 | 12
+72 | 12
+61 | 10
+53 | 9
+13 | 8
+49 | 4
+01 | 1
+55 | 1
+15 | 1
+99 | 1
+

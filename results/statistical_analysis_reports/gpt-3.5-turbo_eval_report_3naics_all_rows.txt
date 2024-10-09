@@ -1,0 +1,175 @@
+OpenAI gpt-3.5-turbo
+--------------------------------------------------------
+Model: gpt-3.5-turbo
+
+Run time for news output (2296 rows): 3:08
+
+Cost for run: $3.78
+
+Row count of successful rows: 2280
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.23228346456692914
+business_innovation | 0.31496062992125984
+green_product | 0.3031496062992126
+green_process | 0.20866141732283464
+company | 0.1968503937007874
+official_company_name | 0.2795275590551181
+product_or_process | 0.2283464566929134
+likely_naics_codes | 0.42913385826771655
+total average score | 1417322834647
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 868
+TRUE | 1402
+not found | 1
+smartphones | 1
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 739
+Likely NAICS Codes: 334220 Cel | 1
+TRUE | 1530
+not found | 1
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 715
+TRUE | 1555
+not found | 1
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 562
+TRUE | 1707
+not found | 1
+
+Measure: company
+response | row count
+---------|----------
+(NOT SET) | 10
+company identified | 1569
+company not identified | 701
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 146
+official company name identified | 1552
+official company name not identified | 582
+
+Measure: product_or_process
+response | row count
+---------|----------
+(NOT SET) | 10
+product or process identified | 781
+product or process not identified | 1489
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+562 | 269
+325 | 258
+541 | 251
+221 | 132
+311 | 128
+334 | 115
+335 | 92
+336 | 75
+ | 72
+333 | 57
+111 | 49
+322 | 45
+448 | 37
+424 | 36
+312 | 36
+326 | 30
+236 | 23
+454 | 23
+313 | 23
+327 | 21
+331 | 21
+238 | 20
+339 | 20
+445 | 19
+523 | 18
+316 | 17
+924 | 17
+337 | 16
+611 | 16
+INVALID | 16
+315 | 16
+112 | 15
+321 | 14
+423 | 14
+561 | 14
+22 | 14
+517 | 13
+926 | 13
+813 | 12
+522 | 12
+324 | 12
+511 | 9
+524 | 9
+211 | 8
+332 | 8
+518 | 7
+444 | 7
+711 | 6
+54 | 5
+722 | 5
+453 | 5
+212 | 5
+314 | 5
+446 | 5
+811 | 5
+115 | 4
+213 | 4
+493 | 4
+114 | 4
+812 | 4
+485 | 4
+237 | 4
+323 | 4
+23 | 3
+484 | 3
+443 | 3
+531 | 3
+113 | 3
+11 | 3
+721 | 3
+713 | 2
+621 | 2
+927 | 2
+447 | 2
+551 | 2
+519 | 2
+481 | 2
+482 | 2
+488 | 2
+451 | 2
+441 | 2
+425 | 2
+712 | 1
+492 | 1
+624 | 1
+532 | 1
+486 | 1
+483 | 1
+92 | 1
+925 | 1
+62 | 1
+452 | 1
+928 | 1
+931 | 1
+487 | 1
+

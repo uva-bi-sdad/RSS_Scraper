@@ -1,0 +1,105 @@
+Gemini v1.0
+--------------------------------------------------------
+Model: gemini_1.0
+
+Run time for news output (2296 rows): 10:03
+
+Cost for run: $0
+
+Row count of successful rows: 1455
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.09174311926605505
+business_innovation | 0.12844036697247707
+green_product | 0.30275229357798167
+green_process | 0.28440366972477066
+company | 0.03669724770642202
+official_company_name | 0.03669724770642202
+product_or_process | 0.06422018348623854
+likely_naics_codes | 0.30275229357798167
+total average score | 0.1559633027522936
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 185
+I cannot extract the requested | 1
+TRUE | 1268
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 185
+I cannot extract the requested | 1
+TRUE | 1268
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 395
+I cannot extract the requested | 1
+NOT ENOUGH INFORMATION. The ar | 1
+NOT MENTIONED | 2
+TRUE | 1051
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 568
+I cannot extract the requested | 1
+NOT ENOUGH INFORMATION. The ar | 1
+NOT MENTIONED | 2
+Not enough information provide | 1
+TRUE | 874
+
+Measure: company
+response | row count
+---------|----------
+company identified | 1324
+company not identified | 131
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 10
+official company name identified | 1320
+official company name not identified | 125
+
+Measure: product_or_process
+response | row count
+---------|----------
+product or process identified | 1362
+product or process not identified | 93
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+33 | 386
+32 | 321
+31 | 199
+56 | 169
+54 | 118
+22 | 61
+INVALID | 43
+44 | 25
+52 | 22
+11 | 20
+23 | 16
+45 | 14
+42 | 11
+51 | 10
+48 | 9
+21 | 7
+49 | 6
+71 | 5
+81 | 5
+92 | 3
+53 | 2
+61 | 1
+62 | 1
+72 | 1
+

@@ -1,0 +1,101 @@
+OpenAI gpt-3.5-turbo
+--------------------------------------------------------
+Model: gpt-3.5-turbo
+
+Run time for news output (2296 rows): 3:08
+
+Cost for run: $3.78
+
+Row count of successful rows: 1689
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.18791946308724833
+business_innovation | 0.26174496644295303
+green_product | 0.2080536912751678
+green_process | 0.15436241610738255
+company | 0.040268456375838924
+official_company_name | 0.08053691275167785
+product_or_process | 0.24161073825503357
+likely_naics_codes | 0.3087248322147651
+total average score | 0.18540268456375839
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 568
+TRUE | 1120
+not found | 1
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 419
+TRUE | 1269
+not found | 1
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 438
+TRUE | 1250
+not found | 1
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 350
+TRUE | 1338
+not found | 1
+
+Measure: company
+response | row count
+---------|----------
+company identified | 1569
+company not identified | 120
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 11
+official company name identified | 1550
+official company name not identified | 128
+
+Measure: product_or_process
+response | row count
+---------|----------
+product or process identified | 781
+product or process not identified | 908
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+33 | 359
+32 | 333
+31 | 188
+56 | 183
+54 | 157
+22 | 96
+44 | 54
+11 | 45
+42 | 44
+51 | 34
+23 | 34
+52 | 29
+45 | 28
+92 | 19
+48 | 16
+81 | 15
+INVALID | 11
+61 | 10
+71 | 9
+21 | 8
+72 | 6
+49 | 4
+53 | 4
+55 | 2
+62 | 1
+

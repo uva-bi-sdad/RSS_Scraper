@@ -1,0 +1,112 @@
+Gemini v1.0
+--------------------------------------------------------
+Model: gemini_1.0
+
+Run time for news output (2296 rows): 10:03
+
+Cost for run: $0
+
+Row count of successful rows: 1781
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.1165644171779141
+business_innovation | 0.18404907975460122
+green_product | 0.3558282208588957
+green_process | 0.31901840490797545
+company | 0.11042944785276074
+official_company_name | 0.147239263803681
+product_or_process | 0.20245398773006135
+likely_naics_codes | 0.4049079754601227
+total average score | 0.23006134969325154
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 308
+I cannot extract the requested | 1
+TRUE | 1468
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 303
+I cannot extract the requested | 1
+NOT APPLICABLE, because the st | 1
+TRUE | 1472
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 572
+I cannot extract the requested | 1
+NOT ENOUGH INFORMATION. The ar | 1
+NOT MENTIONED | 2
+TRUE | 1194
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 746
+I cannot extract the requested | 1
+NOT ENOUGH INFORMATION. The ar | 1
+NOT MENTIONED | 2
+Not enough information provide | 1
+TRUE | 1017
+
+Measure: company
+response | row count
+---------|----------
+(NOT SET) | 5
+company identified | 1324
+company not identified | 452
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 44
+official company name identified | 1320
+official company name not identified | 417
+
+Measure: product_or_process
+response | row count
+---------|----------
+(NOT SET) | 6
+product or process identified | 1362
+product or process not identified | 413
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+33 | 421
+32 | 374
+31 | 225
+56 | 189
+ | 160
+54 | 135
+22 | 72
+11 | 31
+44 | 28
+52 | 25
+23 | 19
+45 | 17
+48 | 13
+51 | 11
+42 | 11
+INVALID | 11
+21 | 7
+49 | 6
+81 | 6
+71 | 5
+92 | 4
+61 | 3
+53 | 2
+62 | 2
+55 | 1
+13 | 1
+72 | 1
+99 | 1
+

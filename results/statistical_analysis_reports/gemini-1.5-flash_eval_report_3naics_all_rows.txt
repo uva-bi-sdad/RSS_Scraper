@@ -1,0 +1,147 @@
+Gemini v1.5 flash
+--------------------------------------------------------
+Model: gemini_1.5_flash
+
+Run time for news output (2296 rows): 12:42
+
+Cost for run: $0
+
+Row count of successful rows: 1245
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.012987012987012988
+business_innovation | 0.012987012987012988
+green_product | 0.09090909090909091
+green_process | 0.07792207792207792
+company | 0.012987012987012988
+official_company_name | 0.0
+product_or_process | 0.012987012987012988
+likely_naics_codes | 0.2727272727272727
+total average score | 0.06168831168831169
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 183
+TRUE | 1062
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 134
+TRUE | 1111
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 607
+TRUE | 638
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 412
+TRUE | 833
+
+Measure: company
+response | row count
+---------|----------
+company identified | 1084
+company not identified | 161
+
+Measure: official_company_name
+response | row count
+---------|----------
+official company name identified | 1103
+official company name not identified | 142
+
+Measure: product_or_process
+response | row count
+---------|----------
+product or process identified | 1144
+product or process not identified | 101
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+541 | 143
+325 | 126
+333 | 103
+311 | 85
+562 | 76
+334 | 66
+336 | 45
+423 | 32
+326 | 31
+111 | 28
+331 | 28
+448 | 25
+221 | 24
+313 | 23
+445 | 19
+327 | 17
+523 | 16
+236 | 15
+561 | 14
+321 | 14
+441 | 13
+339 | 13
+511 | 12
+322 | 12
+519 | 12
+424 | 12
+238 | 11
+312 | 11
+237 | 11
+335 | 11
+316 | 10
+332 | 9
+517 | 9
+531 | 9
+452 | 9
+211 | 8
+454 | 8
+481 | 8
+315 | 8
+443 | 8
+212 | 8
+484 | 7
+324 | 7
+314 | 6
+446 | 6
+493 | 6
+488 | 6
+522 | 5
+524 | 5
+114 | 4
+453 | 4
+485 | 4
+483 | 3
+621 | 3
+711 | 3
+323 | 3
+329 | 3
+451 | 3
+722 | 3
+713 | 2
+532 | 2
+112 | 2
+487 | 2
+444 | 2
+525 | 1
+518 | 1
+115 | 1
+551 | 1
+337 | 1
+492 | 1
+611 | 1
+622 | 1
+482 | 1
+42 | 1
+811 | 1
+921 | 1
+

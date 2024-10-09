@@ -1,0 +1,167 @@
+Gemini v1.0
+--------------------------------------------------------
+Model: gemini_1.0
+
+Run time for news output (2296 rows): 10:03
+
+Cost for run: $0
+
+Row count of successful rows: 1781
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.1165644171779141
+business_innovation | 0.18404907975460122
+green_product | 0.3558282208588957
+green_process | 0.31901840490797545
+company | 0.11042944785276074
+official_company_name | 0.147239263803681
+product_or_process | 0.20245398773006135
+likely_naics_codes | 0.49693251533742333
+total average score | 0.2415644171779141
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 308
+I cannot extract the requested | 1
+TRUE | 1468
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 303
+I cannot extract the requested | 1
+NOT APPLICABLE, because the st | 1
+TRUE | 1472
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 572
+I cannot extract the requested | 1
+NOT ENOUGH INFORMATION. The ar | 1
+NOT MENTIONED | 2
+TRUE | 1194
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 746
+I cannot extract the requested | 1
+NOT ENOUGH INFORMATION. The ar | 1
+NOT MENTIONED | 2
+Not enough information provide | 1
+TRUE | 1017
+
+Measure: company
+response | row count
+---------|----------
+(NOT SET) | 5
+company identified | 1324
+company not identified | 452
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 44
+official company name identified | 1320
+official company name not identified | 417
+
+Measure: product_or_process
+response | row count
+---------|----------
+(NOT SET) | 6
+product or process identified | 1362
+product or process not identified | 413
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+562 | 182
+541 | 164
+ | 160
+325 | 137
+311 | 118
+322 | 101
+334 | 92
+336 | 90
+335 | 79
+221 | 74
+326 | 61
+333 | 52
+313 | 42
+561 | 41
+332 | 33
+315 | 31
+111 | 22
+312 | 20
+321 | 18
+327 | 16
+339 | 16
+331 | 15
+236 | 15
+316 | 14
+448 | 12
+INVALID | 11
+337 | 9
+522 | 9
+454 | 9
+445 | 8
+314 | 8
+523 | 8
+423 | 7
+524 | 6
+519 | 6
+446 | 5
+212 | 5
+444 | 5
+483 | 4
+452 | 4
+324 | 4
+114 | 3
+811 | 3
+211 | 3
+611 | 3
+238 | 3
+422 | 3
+812 | 3
+488 | 3
+115 | 2
+711 | 2
+237 | 2
+713 | 2
+721 | 2
+323 | 2
+493 | 2
+492 | 2
+924 | 2
+453 | 2
+591 | 1
+712 | 1
+921 | 1
+922 | 1
+622 | 1
+621 | 1
+999 | 1
+443 | 1
+531 | 1
+563 | 1
+551 | 1
+132 | 1
+447 | 1
+525 | 1
+213 | 1
+401 | 1
+518 | 1
+517 | 1
+485 | 1
+484 | 1
+482 | 1
+424 | 1
+441 | 1
+513 | 1
+

@@ -1,0 +1,159 @@
+OpenAI gpt-4o-mini
+--------------------------------------------------------
+Model: gpt-4o-mini
+
+Run time for news output (2296 rows): 2:45
+
+Cost for run: $1.46
+
+Row count of successful rows: 2296
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.0234375
+business_innovation | 0.06640625
+green_product | 0.109375
+green_process | 0.0859375
+company | 0.0546875
+official_company_name | 0.05859375
+product_or_process | 0.16015625
+likely_naics_codes | 0.37890625
+total average score | 0.1171875
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 301
+TRUE | 1995
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 224
+TRUE | 2072
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 1203
+TRUE | 1093
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 573
+TRUE | 1723
+
+Measure: company
+response | row count
+---------|----------
+company identified | 1724
+company not identified | 572
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 1
+official company name identified | 1710
+official company name not identified | 585
+
+Measure: product_or_process
+response | row count
+---------|----------
+product or process identified | 1545
+product or process not identified | 751
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+541 | 332
+325 | 232
+311 | 200
+221 | 178
+334 | 143
+562 | 130
+335 | 77
+336 | 75
+326 | 74
+448 | 63
+333 | 63
+111 | 58
+322 | 46
+331 | 32
+321 | 32
+339 | 30
+312 | 28
+327 | 27
+313 | 27
+315 | 26
+332 | 23
+236 | 22
+324 | 20
+316 | 16
+314 | 14
+611 | 13
+523 | 13
+238 | 12
+446 | 12
+445 | 12
+423 | 12
+211 | 12
+621 | 11
+488 | 10
+812 | 10
+337 | 9
+424 | 9
+486 | 9
+115 | 8
+524 | 8
+481 | 8
+453 | 8
+722 | 8
+441 | 7
+511 | 7
+112 | 7
+531 | 7
+522 | 7
+813 | 6
+811 | 6
+323 | 6
+721 | 5
+713 | 5
+532 | 5
+711 | 5
+924 | 5
+212 | 4
+131 | 4
+517 | 4
+518 | 4
+921 | 4
+485 | 3
+114 | 3
+447 | 3
+444 | 3
+132 | 3
+113 | 2
+561 | 2
+237 | 2
+213 | 2
+487 | 2
+712 | 2
+11 | 2
+451 | 2
+493 | 2
+454 | 2
+011 | 1
+443 | 1
+551 | 1
+521 | 1
+52 | 1
+51 | 1
+484 | 1
+442 | 1
+154 | 1
+133 | 1
+999 | 1
+

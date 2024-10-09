@@ -1,0 +1,174 @@
+Llama 3
+--------------------------------------------------------
+Model: llama3
+
+Run time for news output (2296 rows): ~24:00
+
+Cost for run: $0
+
+Row count of successful rows: 1856
+
+DISCREPANCY SUMMARY ACROSS DUPLICATE LINKS (closer to 0 is better)
+-------------------------------------------------------------
+measure | average discrepancies
+green_innovation | 0.2966507177033493
+business_innovation | 0.2535885167464115
+green_product | 0.23923444976076555
+green_process | 0.20095693779904306
+company | 0.20095693779904306
+official_company_name | 0.24401913875598086
+product_or_process | 0.3492822966507177
+likely_naics_codes | 0.37799043062200954
+total average score | 0.2703349282296651
+
+RESPONSE BREAKDOWN BY MEASURE ACROSS ALL ROWS
+-------------------------------------
+Measure: green_innovation
+response | row count
+---------|----------
+FALSE | 715
+TRUE | 1110
+green_innovation | 1
+green_innovation = "" | 1
+green_innovation = '' | 1
+green_innovation_label = 'gree | 1
+
+Measure: business_innovation
+response | row count
+---------|----------
+FALSE | 236
+TRUE | 1561
+business_innovation = "" | 1
+business_innovation = '' | 1
+business_innovation_label = 'b | 1
+
+Measure: green_product
+response | row count
+---------|----------
+FALSE | 1205
+PRODUCT OR PROCESS NOT IDENTIF | 1
+TRUE | 610
+green_product = "" | 1
+green_product = '' | 1
+green_product_label =You seem  | 1
+
+Measure: green_process
+response | row count
+---------|----------
+FALSE | 732
+TRUE | 1079
+green_process | 1
+green_process = "" | 1
+green_process = '' | 1
+
+Measure: company
+response | row count
+---------|----------
+(NOT SET) | 21
+company identified | 1156
+company not identified | 679
+
+Measure: official_company_name
+response | row count
+---------|----------
+(NOT SET) | 503
+official company name identified | 1237
+official company name not identified | 116
+
+Measure: product_or_process
+response | row count
+---------|----------
+(NOT SET) | 115
+product or process identified | 1065
+product or process not identified | 676
+
+Measure: likely_naics_codes
+response | row count
+---------|----------
+541 | 235
+325 | 173
+334 | 167
+311 | 129
+333 | 93
+562 | 87
+332 | 79
+339 | 65
+335 | 65
+111 | 56
+336 | 55
+424 | 48
+INVALID | 44
+324 | 43
+315 | 39
+313 | 38
+221 | 37
+924 | 32
+322 | 29
+532 | 25
+331 | 23
+312 | 22
+327 | 17
+488 | 16
+ | 14
+314 | 14
+452 | 13
+445 | 10
+511 | 9
+448 | 9
+517 | 8
+524 | 8
+522 | 8
+337 | 7
+561 | 6
+523 | 6
+423 | 6
+236 | 6
+113 | 5
+443 | 5
+237 | 5
+238 | 5
+112 | 5
+722 | 5
+326 | 4
+813 | 4
+611 | 4
+451 | 4
+233 | 4
+115 | 3
+211 | 3
+721 | 3
+713 | 3
+453 | 3
+212 | 3
+114 | 3
+441 | 2
+921 | 2
+812 | 2
+622 | 2
+483 | 2
+444 | 2
+513 | 2
+531 | 2
+525 | 2
+518 | 2
+454 | 2
+323 | 2
+481 | 2
+493 | 2
+486 | 1
+926 | 1
+925 | 1
+321 | 1
+922 | 1
+484 | 1
+235 | 1
+72 | 1
+811 | 1
+422 | 1
+54 | 1
+712 | 1
+711 | 1
+621 | 1
+447 | 1
+482 | 1
+
